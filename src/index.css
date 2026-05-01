@@ -1,0 +1,56 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --chart-primary: theme('colors.brand.DEFAULT');
+  --chart-secondary: theme('colors.blue.DEFAULT');
+  --chart-tertiary: theme('colors.purple.DEFAULT');
+  --chart-warning: theme('colors.amber.soft');
+  --chart-grid: theme('colors.line.DEFAULT');
+  --chart-tooltip-shadow: 0 14px 34px rgba(15, 75, 59, 0.08);
+}
+
+html, body {
+  height: 100%;
+}
+
+html {
+  background: theme('colors.page');
+}
+
+body {
+  font-family: theme('fontFamily.sans');
+  -webkit-font-smoothing: antialiased;
+  background: theme('colors.page');
+  color: theme('colors.ink.DEFAULT');
+}
+
+::selection {
+  background: color-mix(in srgb, theme('colors.brand.DEFAULT') 18%, white);
+  color: theme('colors.ink.strong');
+}
+
+#root {
+  min-height: 100%;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: theme('colors.ink.strong');
+}
+
+.recharts-cartesian-grid line {
+  stroke: var(--chart-grid);
+}
+
+.recharts-tooltip-wrapper {
+  outline: none !important;
+}
+
+.recharts-default-tooltip {
+  background-color: theme('colors.card') !important;
+  border: 1px solid theme('colors.line.DEFAULT') !important;
+  border-radius: theme('borderRadius.lg') !important;
+  box-shadow: var(--chart-tooltip-shadow) !important;
+  padding: 12px !important;
+}
