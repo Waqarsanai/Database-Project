@@ -1,0 +1,1 @@
+import{j as r}from"./index-9biERdvI.js";import{P as o}from"./ProductCard-BqWu1ZHt.js";function i({products:a}){return r.jsx("div",{className:"-mx-4 overflow-x-auto px-4",children:r.jsx("div",{className:"flex min-w-max gap-5 py-1",children:a.map(s=>r.jsx("div",{className:"w-[290px] shrink-0",children:r.jsx(o,{product:s})},s.productId))})})}export{i as R};

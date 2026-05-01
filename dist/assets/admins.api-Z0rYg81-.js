@@ -1,0 +1,1 @@
+import{i as n}from"./index-9biERdvI.js";const e=t=>n.get("/admins",{params:t}).then(a=>a.data),i=(t,a)=>n.put(`/admins/${t}`,a).then(s=>s.data),m=t=>n.post("/admins",t).then(a=>a.data);export{m as c,e as g,i as u};

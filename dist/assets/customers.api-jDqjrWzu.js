@@ -1,0 +1,1 @@
+import{i as a}from"./index-9biERdvI.js";const u=t=>a.get("/customers",{params:t}).then(s=>s.data),r=t=>a.get(`/customers/${t}`).then(s=>s.data),c=(t,s)=>a.put(`/customers/${t}`,s).then(e=>e.data),m=(t,s)=>a.patch(`/customers/${t}/status`,{isActive:s}).then(e=>e.data);export{r as a,u as g,m as p,c as u};

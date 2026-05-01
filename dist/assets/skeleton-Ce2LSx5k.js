@@ -1,0 +1,1 @@
+import{j as s}from"./index-9biERdvI.js";import{c as t}from"./cn-CuDzDrwV.js";function a({className:o,...r}){return s.jsx("div",{className:t("animate-pulse rounded-xl bg-brand-soft/80",o),...r})}export{a as S};

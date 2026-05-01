@@ -1,0 +1,1 @@
+import{i as a}from"./index-9biERdvI.js";const r=t=>a.get("/categories",{params:t}).then(e=>e.data),g=t=>a.post("/categories",t).then(e=>e.data),c=(t,e)=>a.put(`/categories/${t}`,e).then(o=>o.data),i=t=>a.delete(`/categories/${t}`).then(e=>e.data);export{g as c,i as d,r as g,c as u};

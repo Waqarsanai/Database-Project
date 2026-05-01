@@ -1,0 +1,1 @@
+import{i as e}from"./index-9biERdvI.js";const d=t=>e.get("/orders",{params:t}).then(a=>a.data),o=t=>e.get(`/orders/${t}`).then(a=>a.data),n=t=>e.post("/orders",t).then(a=>a.data),c=(t,a)=>e.put(`/orders/${t}`,a).then(r=>r.data),p=(t,a)=>e.patch(`/orders/${t}/status`,{status:a}).then(r=>r.data);export{o as a,n as c,d as g,p,c as u};
